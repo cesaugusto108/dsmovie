@@ -1,8 +1,31 @@
 import Pagination from "../../components/Pagination";
+import "../../components/MovieStars/styles.css";
+import MovieCard from "../../components/MovieCard";
 
 function Listing() {
       return (
-            <Pagination />
+            <>
+                  <Pagination />
+                  <div className="container">
+                        <div className="row">
+                              <div className="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                    <MovieCard />
+                              </div>
+                              <div className="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                    <MovieCard />
+                              </div>
+                              <div className="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                    <MovieCard />
+                              </div>{" "}
+                              <div className="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                    <MovieCard />
+                              </div>{" "}
+                              <div className="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                    <MovieCard />
+                              </div>
+                        </div>
+                  </div>
+            </>
       );
 }
 

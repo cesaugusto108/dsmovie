@@ -39,10 +39,11 @@
 }
 
 .dsmovie-card-bottom-container h3 {
+      font-family: "Nunito", sans-serif;
       color: #4a4a4a;
       text-align: center;
       font-size: 18px;
-      font-weight: 300;
+      font-weight: 400;
       margin-bottom: 10px;
       min-height: 40px;
 }
@@ -52,7 +53,7 @@
       border: none;
       color: #4a4a4a;
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 500;
       height: 40px;
       width: 180px;
       display: flex;
