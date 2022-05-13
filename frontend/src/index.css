@@ -12,8 +12,9 @@
 
 html,
 body {
-      background-color: #F1F9F9;
+      background-image: linear-gradient(to bottom, #F1F9F9, #FFFFFF);
       color: #505050;
+      min-height: 100vh;
 }
 
 a,

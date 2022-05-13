@@ -13,6 +13,16 @@ header {
       align-items: center;
 }
 
+.dsmovie-logo {
+      display: flex;
+      align-items: center;
+}
+
+.dsmovie-film-icon {
+      height: 40px;
+      width: 40px;
+}
+
 .dsmovie-nav-content h1 {
       margin: 0;
 }
