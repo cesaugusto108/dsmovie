@@ -13,7 +13,7 @@ function Listing() {
             last: true,
             totalPages: 0,
             totalElements: 0,
-            size: 12,
+            size: 10,
             number: 0,
             first: true,
             numberOfElements: 0,
@@ -21,7 +21,7 @@ function Listing() {
       });
 
       useEffect(() => {
-            axios.get(`${BASE_URL}/movies?size=12&page=${pageNumber}&sort=id`).then((response) => {
+            axios.get(`${BASE_URL}/movies?size=6&page=${pageNumber}&sort=id`).then((response) => {
                   const data = response.data as MoviePage;
                   setPage(data);
             });
@@ -38,7 +38,7 @@ function Listing() {
                         <div className="row">
                               {page.content.map((movie) => {
                                     return (
-                                          <div key={movie.id} className="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                          <div key={movie.id} className="col-sm-6 col-lg-4 mb-4">
                                                 <MovieCard movie={movie} />
                                           </div>
                                     );

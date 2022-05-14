@@ -10,7 +10,7 @@ function Navbar() {
                               <a href="/">
                                     <div className="dsmovie-logo">
                                           <MovieIcon className="dsmovie-film-icon" />
-                                          <h1 className="display-5 ms-3">DSMovie</h1>
+                                          <h1 className="ms-3">DSMovie</h1>
                                     </div>
                               </a>
                               <a href="https://github.com/cesaugusto108">
